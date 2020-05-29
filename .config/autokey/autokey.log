@@ -1,0 +1,468 @@
+2019-09-05 15:15:59,758 INFO - root - Initialising application
+2019-09-05 15:15:59,764 INFO - root - Initialise global hotkeys
+2019-09-05 15:15:59,765 INFO - config-manager - No configuration found - creating new one
+2019-09-05 15:15:59,769 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:15:59,769 INFO - config-manager - Persisting configuration
+2019-09-05 15:15:59,770 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-05 15:15:59,770 INFO - service - Starting service
+2019-09-05 15:15:59,840 INFO - interface - XRecord interface thread starting
+2019-09-05 15:15:59,841 INFO - service - Service now marked as running
+2019-09-05 15:15:59,930 INFO - root - Displaying configuration window
+2019-09-05 15:16:00,086 INFO - root - Entering main()
+2019-09-05 15:16:39,703 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:16:44,868 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:16:54,003 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:17:07,310 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:17:08,739 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:17:21,054 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:17:32,213 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:17:43,723 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:17:54,007 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:18:04,019 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-05 15:18:04,019 INFO - config-manager - Persisting configuration
+2019-09-05 15:18:04,021 INFO - config-manager - Backing up existing config file
+2019-09-05 15:18:04,023 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-06 18:48:48,060 INFO - root - Initialising application
+2019-09-06 18:48:48,068 INFO - root - Initialise global hotkeys
+2019-09-06 18:48:48,068 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 18:48:48,073 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 18:48:48,073 INFO - config-manager - Successfully loaded configuration
+2019-09-06 18:48:48,074 INFO - service - Starting service
+2019-09-06 18:48:48,171 INFO - interface - XRecord interface thread starting
+2019-09-06 18:48:48,172 INFO - service - Service now marked as running
+2019-09-06 18:48:48,283 INFO - root - Entering main()
+2019-09-06 18:50:23,223 INFO - root - Initialising application
+2019-09-06 18:50:23,235 INFO - root - Initialise global hotkeys
+2019-09-06 18:50:23,236 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 18:50:23,249 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 18:50:23,249 INFO - config-manager - Successfully loaded configuration
+2019-09-06 18:50:23,250 INFO - service - Starting service
+2019-09-06 18:50:23,431 INFO - interface - XRecord interface thread starting
+2019-09-06 18:50:23,452 INFO - service - Service now marked as running
+2019-09-06 18:50:23,745 INFO - root - Entering main()
+2019-09-06 18:51:07,412 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:51:09,036 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:51:09,409 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:51:09,645 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:51:09,842 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:51:10,118 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:51:10,323 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:51:10,504 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 18:54:45,337 INFO - root - Initialising application
+2019-09-06 18:54:45,364 INFO - root - Initialise global hotkeys
+2019-09-06 18:54:45,364 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 18:54:45,381 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 18:54:45,382 INFO - config-manager - Successfully loaded configuration
+2019-09-06 18:54:45,383 INFO - service - Starting service
+2019-09-06 18:54:45,659 INFO - interface - XRecord interface thread starting
+2019-09-06 18:54:45,670 INFO - service - Service now marked as running
+2019-09-06 18:54:45,854 INFO - root - Entering main()
+2019-09-06 18:59:17,121 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 19:40:05,135 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 19:42:23,796 INFO - root - Initialising application
+2019-09-06 19:42:23,809 INFO - root - Initialise global hotkeys
+2019-09-06 19:42:23,810 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 19:42:23,835 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 19:42:23,836 INFO - config-manager - Successfully loaded configuration
+2019-09-06 19:42:23,837 INFO - service - Starting service
+2019-09-06 19:42:24,003 INFO - interface - XRecord interface thread starting
+2019-09-06 19:42:24,014 INFO - service - Service now marked as running
+2019-09-06 19:42:24,241 INFO - root - Entering main()
+2019-09-06 20:07:21,441 INFO - root - Initialising application
+2019-09-06 20:07:21,453 INFO - root - Initialise global hotkeys
+2019-09-06 20:07:21,453 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 20:07:21,475 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 20:07:21,480 INFO - config-manager - Successfully loaded configuration
+2019-09-06 20:07:21,480 INFO - service - Starting service
+2019-09-06 20:07:21,625 INFO - interface - XRecord interface thread starting
+2019-09-06 20:07:21,628 INFO - service - Service now marked as running
+2019-09-06 20:07:21,872 INFO - root - Entering main()
+2019-09-06 20:09:13,431 INFO - root - Initialising application
+2019-09-06 20:09:13,445 INFO - root - Initialise global hotkeys
+2019-09-06 20:09:13,445 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 20:09:13,499 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 20:09:13,499 INFO - config-manager - Successfully loaded configuration
+2019-09-06 20:09:13,500 INFO - service - Starting service
+2019-09-06 20:09:13,702 INFO - interface - XRecord interface thread starting
+2019-09-06 20:09:13,709 INFO - service - Service now marked as running
+2019-09-06 20:09:14,010 INFO - root - Entering main()
+2019-09-06 20:13:57,677 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 20:17:48,441 INFO - root - Initialising application
+2019-09-06 20:17:48,461 INFO - root - Initialise global hotkeys
+2019-09-06 20:17:48,461 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 20:17:48,478 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 20:17:48,479 INFO - config-manager - Successfully loaded configuration
+2019-09-06 20:17:48,480 INFO - service - Starting service
+2019-09-06 20:17:48,682 INFO - interface - XRecord interface thread starting
+2019-09-06 20:17:48,683 INFO - service - Service now marked as running
+2019-09-06 20:17:48,910 INFO - root - Entering main()
+2019-09-06 20:20:48,454 INFO - root - Initialising application
+2019-09-06 20:20:48,477 INFO - root - Initialise global hotkeys
+2019-09-06 20:20:48,477 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 20:20:48,508 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 20:20:48,509 INFO - config-manager - Successfully loaded configuration
+2019-09-06 20:20:48,509 INFO - service - Starting service
+2019-09-06 20:20:48,858 INFO - interface - XRecord interface thread starting
+2019-09-06 20:20:48,872 INFO - service - Service now marked as running
+2019-09-06 20:20:49,251 INFO - root - Entering main()
+2019-09-06 20:24:47,756 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 20:45:56,540 INFO - root - Initialising application
+2019-09-06 20:45:56,565 INFO - root - Initialise global hotkeys
+2019-09-06 20:45:56,565 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-06 20:45:56,615 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-06 20:45:56,616 INFO - config-manager - Successfully loaded configuration
+2019-09-06 20:45:56,616 INFO - service - Starting service
+2019-09-06 20:45:56,823 INFO - interface - XRecord interface thread starting
+2019-09-06 20:45:56,831 INFO - service - Service now marked as running
+2019-09-06 20:45:57,175 INFO - root - Entering main()
+2019-09-06 21:09:15,922 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 21:09:16,327 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 21:14:54,663 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 21:14:54,924 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 21:16:54,547 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 21:25:12,163 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 21:59:24,887 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 22:05:30,113 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-06 22:05:43,276 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 11:13:34,807 INFO - root - Initialising application
+2019-09-07 11:13:34,824 INFO - root - Initialise global hotkeys
+2019-09-07 11:13:34,824 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-07 11:13:34,842 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-07 11:13:34,843 INFO - config-manager - Successfully loaded configuration
+2019-09-07 11:13:34,843 INFO - service - Starting service
+2019-09-07 11:13:35,045 INFO - interface - XRecord interface thread starting
+2019-09-07 11:13:35,046 INFO - service - Service now marked as running
+2019-09-07 11:13:35,425 INFO - root - Entering main()
+2019-09-07 11:24:31,567 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 11:38:09,660 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 11:41:02,630 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 11:42:24,614 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 11:42:24,955 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 12:21:40,656 INFO - root - Initialising application
+2019-09-07 12:21:40,667 INFO - root - Initialise global hotkeys
+2019-09-07 12:21:40,667 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-07 12:21:40,706 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-07 12:21:40,706 INFO - config-manager - Successfully loaded configuration
+2019-09-07 12:21:40,707 INFO - service - Starting service
+2019-09-07 12:21:40,840 INFO - interface - XRecord interface thread starting
+2019-09-07 12:21:40,842 INFO - service - Service now marked as running
+2019-09-07 12:21:41,075 INFO - root - Entering main()
+2019-09-07 12:22:23,824 INFO - root - Initialising application
+2019-09-07 12:22:23,848 INFO - root - Initialise global hotkeys
+2019-09-07 12:22:23,849 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-07 12:22:24,540 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-07 12:22:24,541 INFO - config-manager - Successfully loaded configuration
+2019-09-07 12:22:24,541 INFO - service - Starting service
+2019-09-07 12:22:24,956 INFO - interface - XRecord interface thread starting
+2019-09-07 12:22:24,963 INFO - service - Service now marked as running
+2019-09-07 12:22:25,219 INFO - root - Entering main()
+2019-09-07 12:23:52,626 INFO - root - Initialising application
+2019-09-07 12:23:52,642 INFO - root - Initialise global hotkeys
+2019-09-07 12:23:52,643 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-07 12:23:52,670 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-07 12:23:52,671 INFO - config-manager - Successfully loaded configuration
+2019-09-07 12:23:52,676 INFO - service - Starting service
+2019-09-07 12:23:52,844 INFO - interface - XRecord interface thread starting
+2019-09-07 12:23:52,847 INFO - service - Service now marked as running
+2019-09-07 12:23:53,047 INFO - root - Entering main()
+2019-09-07 12:24:43,228 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:02:50,642 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:11:02,878 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:14:31,191 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:22:24,847 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:28:43,126 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:28:47,747 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:46:37,228 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 13:46:37,492 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 14:38:11,072 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 14:38:11,340 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 15:01:26,997 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 18:14:49,680 INFO - root - Initialising application
+2019-09-07 18:14:49,707 INFO - root - Initialise global hotkeys
+2019-09-07 18:14:49,707 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-07 18:14:49,721 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-07 18:14:49,722 INFO - config-manager - Successfully loaded configuration
+2019-09-07 18:14:49,722 INFO - service - Starting service
+2019-09-07 18:14:49,910 INFO - interface - XRecord interface thread starting
+2019-09-07 18:14:49,913 INFO - service - Service now marked as running
+2019-09-07 18:14:50,269 INFO - root - Entering main()
+2019-09-07 18:15:56,806 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 18:19:36,485 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 18:19:48,031 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 18:19:51,460 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 18:41:40,545 INFO - root - Initialising application
+2019-09-07 18:41:40,574 INFO - root - Initialise global hotkeys
+2019-09-07 18:41:40,575 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-07 18:41:40,608 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-07 18:41:40,608 INFO - config-manager - Successfully loaded configuration
+2019-09-07 18:41:40,609 INFO - service - Starting service
+2019-09-07 18:41:40,810 INFO - interface - XRecord interface thread starting
+2019-09-07 18:41:40,811 INFO - service - Service now marked as running
+2019-09-07 18:41:41,137 INFO - root - Entering main()
+2019-09-07 19:42:48,937 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 19:47:45,261 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 20:43:39,350 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 20:56:13,120 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-07 21:06:10,815 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:10:41,562 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:12:45,782 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:13:44,107 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:13:44,289 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:14:26,342 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:36:00,935 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:47:41,228 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:48:19,093 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:51:06,293 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:51:06,602 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:54:09,811 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 08:57:00,487 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 12:02:51,929 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 12:14:03,947 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 13:16:08,775 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 13:26:25,322 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 14:31:30,179 INFO - root - Initialising application
+2019-09-08 14:31:30,203 INFO - root - Initialise global hotkeys
+2019-09-08 14:31:30,204 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-08 14:31:30,219 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-08 14:31:30,221 INFO - config-manager - Successfully loaded configuration
+2019-09-08 14:31:30,222 INFO - service - Starting service
+2019-09-08 14:31:30,350 INFO - interface - XRecord interface thread starting
+2019-09-08 14:31:30,361 INFO - service - Service now marked as running
+2019-09-08 14:31:30,481 INFO - root - Entering main()
+2019-09-08 14:35:24,582 INFO - root - Initialising application
+2019-09-08 14:35:24,600 INFO - root - Initialise global hotkeys
+2019-09-08 14:35:24,600 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-08 14:35:24,615 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-08 14:35:24,616 INFO - config-manager - Successfully loaded configuration
+2019-09-08 14:35:24,616 INFO - service - Starting service
+2019-09-08 14:35:24,791 INFO - interface - XRecord interface thread starting
+2019-09-08 14:35:24,803 INFO - service - Service now marked as running
+2019-09-08 14:35:25,058 INFO - root - Entering main()
+2019-09-08 14:37:59,515 INFO - root - Initialising application
+2019-09-08 14:37:59,529 INFO - root - Initialise global hotkeys
+2019-09-08 14:37:59,529 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-08 14:37:59,551 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-08 14:37:59,552 INFO - config-manager - Successfully loaded configuration
+2019-09-08 14:37:59,552 INFO - service - Starting service
+2019-09-08 14:37:59,722 INFO - interface - XRecord interface thread starting
+2019-09-08 14:37:59,723 INFO - service - Service now marked as running
+2019-09-08 14:37:59,955 INFO - root - Entering main()
+2019-09-08 18:27:59,568 INFO - root - Initialising application
+2019-09-08 18:27:59,605 INFO - root - Initialise global hotkeys
+2019-09-08 18:27:59,605 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-08 18:27:59,618 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-08 18:27:59,619 INFO - config-manager - Successfully loaded configuration
+2019-09-08 18:27:59,620 INFO - service - Starting service
+2019-09-08 18:27:59,798 INFO - interface - XRecord interface thread starting
+2019-09-08 18:27:59,808 INFO - service - Service now marked as running
+2019-09-08 18:28:00,039 INFO - root - Entering main()
+2019-09-08 20:38:24,424 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 20:41:58,287 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 20:55:23,229 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:11:02,017 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:12:08,218 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:17:25,446 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:18:00,685 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:18:36,415 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:22:24,634 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:22:43,055 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-08 21:46:14,331 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 18:39:13,538 INFO - root - Initialising application
+2019-09-09 18:39:13,576 INFO - root - Initialise global hotkeys
+2019-09-09 18:39:13,576 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-09 18:39:13,631 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 18:39:13,632 INFO - config-manager - Successfully loaded configuration
+2019-09-09 18:39:13,633 INFO - service - Starting service
+2019-09-09 18:39:13,935 INFO - interface - XRecord interface thread starting
+2019-09-09 18:39:13,938 INFO - service - Service now marked as running
+2019-09-09 18:39:14,169 INFO - root - Entering main()
+2019-09-09 16:44:56,853 INFO - root - Initialising application
+2019-09-09 16:44:56,914 INFO - root - Initialise global hotkeys
+2019-09-09 16:44:56,915 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-09 16:44:56,947 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 16:44:56,947 INFO - config-manager - Successfully loaded configuration
+2019-09-09 16:44:56,948 INFO - service - Starting service
+2019-09-09 16:44:57,132 INFO - interface - XRecord interface thread starting
+2019-09-09 16:44:57,136 INFO - service - Service now marked as running
+2019-09-09 16:44:57,560 INFO - root - Entering main()
+2019-09-09 17:09:44,130 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:16:00,862 INFO - root - Displaying configuration window
+2019-09-09 17:16:09,686 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:16:26,493 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:16:26,516 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:16:26,516 INFO - config-manager - Persisting configuration
+2019-09-09 17:16:26,517 INFO - config-manager - Backing up existing config file
+2019-09-09 17:16:26,523 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:16:37,430 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:16:51,480 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:16:57,878 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:17:12,062 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:23:15,725 INFO - root - Displaying configuration window
+2019-09-09 17:23:42,490 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:23:42,506 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:23:42,507 INFO - config-manager - Persisting configuration
+2019-09-09 17:23:42,507 INFO - config-manager - Backing up existing config file
+2019-09-09 17:23:42,511 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:27:20,333 INFO - root - Displaying configuration window
+2019-09-09 17:27:45,988 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:00,093 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:00,093 INFO - config-manager - Persisting configuration
+2019-09-09 17:28:00,094 INFO - config-manager - Backing up existing config file
+2019-09-09 17:28:00,094 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:28:17,992 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:38,993 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:38,994 INFO - config-manager - Persisting configuration
+2019-09-09 17:28:38,994 INFO - config-manager - Backing up existing config file
+2019-09-09 17:28:38,999 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:28:39,481 WARNING - config-manager - No action taken for delete event at /home/ulys/.config/autokey/data/My Phrases/C-m as enter1.txt
+2019-09-09 17:28:42,492 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:42,492 INFO - config-manager - Persisting configuration
+2019-09-09 17:28:42,493 INFO - config-manager - Backing up existing config file
+2019-09-09 17:28:42,494 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:28:44,929 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:44,929 INFO - config-manager - Persisting configuration
+2019-09-09 17:28:44,929 INFO - config-manager - Backing up existing config file
+2019-09-09 17:28:44,932 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:28:45,419 WARNING - config-manager - No action taken for delete event at /home/ulys/.config/autokey/data/My Phrases/C-n as down.txt
+2019-09-09 17:28:46,943 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:46,943 INFO - config-manager - Persisting configuration
+2019-09-09 17:28:46,944 INFO - config-manager - Backing up existing config file
+2019-09-09 17:28:46,946 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:28:49,113 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:49,113 INFO - config-manager - Persisting configuration
+2019-09-09 17:28:49,113 INFO - config-manager - Backing up existing config file
+2019-09-09 17:28:49,116 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:28:49,600 WARNING - config-manager - No action taken for delete event at /home/ulys/.config/autokey/data/My Phrases/C-p as up1.txt
+2019-09-09 17:28:51,533 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:28:51,533 INFO - config-manager - Persisting configuration
+2019-09-09 17:28:51,534 INFO - config-manager - Backing up existing config file
+2019-09-09 17:28:51,535 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:29:07,414 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:13,018 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:13,018 INFO - config-manager - Persisting configuration
+2019-09-09 17:29:13,018 INFO - config-manager - Backing up existing config file
+2019-09-09 17:29:13,021 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:29:13,509 WARNING - config-manager - No action taken for delete event at /home/ulys/.config/autokey/data/My Phrases/C-m as enter in RStudio.txt
+2019-09-09 17:29:15,959 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:15,960 INFO - config-manager - Persisting configuration
+2019-09-09 17:29:15,960 INFO - config-manager - Backing up existing config file
+2019-09-09 17:29:15,962 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:29:22,917 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:22,917 INFO - config-manager - Persisting configuration
+2019-09-09 17:29:22,918 INFO - config-manager - Backing up existing config file
+2019-09-09 17:29:22,919 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:29:27,611 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:27,612 INFO - config-manager - Persisting configuration
+2019-09-09 17:29:27,612 INFO - config-manager - Backing up existing config file
+2019-09-09 17:29:27,613 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:29:31,460 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:31,460 INFO - config-manager - Persisting configuration
+2019-09-09 17:29:31,460 INFO - config-manager - Backing up existing config file
+2019-09-09 17:29:31,461 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:29:38,177 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:38,177 INFO - config-manager - Persisting configuration
+2019-09-09 17:29:38,177 INFO - config-manager - Backing up existing config file
+2019-09-09 17:29:38,178 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:29:44,805 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:29:44,805 INFO - config-manager - Persisting configuration
+2019-09-09 17:29:44,805 INFO - config-manager - Backing up existing config file
+2019-09-09 17:29:44,806 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:30:04,987 INFO - root - Initialising application
+2019-09-09 17:30:05,014 INFO - root - Initialise global hotkeys
+2019-09-09 17:30:05,015 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-09 17:30:05,021 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:30:05,021 INFO - config-manager - Successfully loaded configuration
+2019-09-09 17:30:05,021 INFO - service - Starting service
+2019-09-09 17:30:05,182 INFO - interface - XRecord interface thread starting
+2019-09-09 17:30:05,210 INFO - service - Service now marked as running
+2019-09-09 17:30:05,503 INFO - root - Entering main()
+2019-09-09 17:37:39,905 INFO - root - Displaying configuration window
+2019-09-09 17:38:00,830 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:38:20,451 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:38:42,201 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:39:03,153 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:39:16,316 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:39:18,419 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:39:18,592 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:39:18,733 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:39:18,957 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:39:34,791 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:39:36,525 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:40:10,203 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:40:10,203 INFO - config-manager - Persisting configuration
+2019-09-09 17:40:10,204 INFO - config-manager - Backing up existing config file
+2019-09-09 17:40:10,207 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:40:10,689 WARNING - config-manager - No action taken for delete event at /home/ulys/.config/autokey/data/My Phrases/Firefox/C-m as enter.txt
+2019-09-09 17:40:12,731 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:40:12,731 INFO - config-manager - Persisting configuration
+2019-09-09 17:40:12,731 INFO - config-manager - Backing up existing config file
+2019-09-09 17:40:12,732 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:40:15,351 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:40:15,351 INFO - config-manager - Persisting configuration
+2019-09-09 17:40:15,351 INFO - config-manager - Backing up existing config file
+2019-09-09 17:40:15,351 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:40:15,828 WARNING - config-manager - No action taken for delete event at /home/ulys/.config/autokey/data/My Phrases/RStudio/C-m as enter in RStudio.txt
+2019-09-09 17:40:17,391 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:40:17,391 INFO - config-manager - Persisting configuration
+2019-09-09 17:40:17,392 INFO - config-manager - Backing up existing config file
+2019-09-09 17:40:17,393 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:40:22,767 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:40:50,970 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:40:50,985 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:40:50,985 INFO - config-manager - Persisting configuration
+2019-09-09 17:40:50,986 INFO - config-manager - Backing up existing config file
+2019-09-09 17:40:50,990 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:40:52,536 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:40:54,825 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:40:55,253 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:40:55,578 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:23,434 INFO - root - Displaying configuration window
+2019-09-09 17:41:39,444 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:41:41,740 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:44,061 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:44,527 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:45,026 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:50,078 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:51,149 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:51,763 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 17:41:57,059 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 17:41:57,059 INFO - config-manager - Persisting configuration
+2019-09-09 17:41:57,059 INFO - config-manager - Backing up existing config file
+2019-09-09 17:41:57,061 INFO - config-manager - Finished persisting configuration - no errors
+2019-09-09 17:41:58,529 INFO - service - Matched hotkey phrase/script with prompt=False
+2019-09-09 19:44:30,410 INFO - root - Initialising application
+2019-09-09 19:44:30,419 INFO - root - Initialise global hotkeys
+2019-09-09 19:44:30,419 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-09 19:44:30,422 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:44:30,423 INFO - config-manager - Successfully loaded configuration
+2019-09-09 19:44:30,423 INFO - service - Starting service
+2019-09-09 19:44:30,524 INFO - interface - XRecord interface thread starting
+2019-09-09 19:44:30,525 INFO - service - Service now marked as running
+2019-09-09 19:44:30,603 INFO - root - Entering main()
+2019-09-09 19:44:47,640 INFO - root - Initialising application
+2019-09-09 19:44:47,668 INFO - root - Initialise global hotkeys
+2019-09-09 19:44:47,669 INFO - config-manager - Loading config from existing file: /home/ulys/.config/autokey/autokey.json
+2019-09-09 19:44:47,694 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:44:47,695 INFO - config-manager - Successfully loaded configuration
+2019-09-09 19:44:47,695 INFO - service - Starting service
+2019-09-09 19:44:47,965 INFO - interface - XRecord interface thread starting
+2019-09-09 19:44:47,976 INFO - service - Service now marked as running
+2019-09-09 19:44:48,289 INFO - root - Entering main()
+2019-09-09 19:45:02,271 INFO - root - Displaying configuration window
+2019-09-09 19:45:28,371 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:45:32,897 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:45:40,846 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:45:57,912 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:46:16,649 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:46:54,116 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:03,591 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:09,120 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:15,482 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:23,333 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:31,200 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:37,422 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:43,752 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:48,080 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2019-09-09 19:47:48,081 INFO - config-manager - Persisting configuration
+2019-09-09 19:47:48,081 INFO - config-manager - Backing up existing config file
+2019-09-09 19:47:48,082 INFO - config-manager - Finished persisting configuration - no errors

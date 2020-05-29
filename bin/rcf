@@ -1,0 +1,24 @@
+#!/bin/bash
+
+is-symlink () {
+    $([ -L "$1" ])
+}
+
+one-file-helper () {
+    file="$1"
+    if $(is-symlink "$file"); then
+        whose=$(stat -c '%U' "$file")
+
+        LINK_TARGET=`readlink -f "$1"`
+        sudo -u $whose rm -rf   "$1"
+        sudo -u $whose cp -rfT "$LINK_TARGET" "$1"
+        sudo -u $whose rm -rf   "$LINK_TARGET"
+    else
+        echo "Not a symbolic link: $1"
+    fi
+}
+
+for file in "$@"
+do
+    one-file-helper "$file"
+done

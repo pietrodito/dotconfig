@@ -1,0 +1,12 @@
+#!/bin/bash
+
+curr=$(xdotool getactivewindow)
+firefox=$(xdotool search -class firefox)
+if [[ $firefox = *$curr* ]]; then
+    echo Fire >> ~/tmp/log
+    xdotool key --clearmodifiers Down
+else
+    echo Not fire >> ~/tmp/log
+    ## xdotool key --clearmodifiers ctrl+j
+    xdotool key --clearmodifiers Down
+fi

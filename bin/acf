@@ -1,0 +1,29 @@
+#!/bin/bash
+
+is-symlink () {
+    $([ -L "$1" ])
+}
+
+one-file-helper () {
+    file="$1"
+    if $(is-symlink "$file"); then
+        echo "Already symbolic link: $1"
+    else
+        file="$1"
+        whose=$(stat -c '%U' "$file")
+
+        CONFIGS_DIR="$HOME/Comp/manjaro-setup/configs"
+        ArgPath=`realpath "$1"`
+        ArgDir="$( cd "$( dirname "$1" )" && pwd )"
+
+        mkdir -p "${CONFIGS_DIR}$ArgDir"
+        sudo -u $whose cp -frpT "$ArgPath" "${CONFIGS_DIR}${ArgPath}"
+        sudo -u $whose rm -rf   "$ArgPath"
+        sudo -u $whose ln -sfT "${CONFIGS_DIR}${ArgPath}" "$ArgPath"
+    fi
+}
+
+for file in "$@"
+do
+    one-file-helper $file
+done

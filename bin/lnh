@@ -1,0 +1,4 @@
+#!/bin/bash
+QL_DIR="$HOME/0_Quick-Link"
+unlink "$QL_DIR" 2> /dev/null
+ln -sf `qwd` "$QL_DIR"
