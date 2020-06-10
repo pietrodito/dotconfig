@@ -1,0 +1,10 @@
+#!/bin/bash
+setxkbmap -layout "fr"
+
+setxkbmap -option 
+
+sudo su colette
+
+zsh
+
+

@@ -1,31 +1,31 @@
 {
-    "usageCount": 1, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "Enter", 
-    "abbreviation": {
-        "wordChars": "[\\w]", 
-        "abbreviations": [], 
-        "immediate": false, 
-        "ignoreCase": false, 
-        "backspace": true, 
-        "triggerInside": false
-    }, 
-    "hotkey": {
-        "hotKey": "m", 
-        "modifiers": [
-            "<ctrl>"
-        ]
-    }, 
+    "type": "phrase",
+    "description": "Enter",
     "modes": [
         3
-    ], 
-    "showInTrayMenu": false, 
-    "matchCase": false, 
+    ],
+    "usageCount": 24,
+    "prompt": false,
+    "omitTrigger": false,
+    "matchCase": false,
+    "showInTrayMenu": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "ignoreCase": false,
+        "immediate": false,
+        "triggerInside": false,
+        "wordChars": "[\\w]"
+    },
+    "hotkey": {
+        "modifiers": [
+            "<ctrl>"
+        ],
+        "hotKey": "m"
+    },
     "filter": {
-        "regex": "Navigator.firefox", 
+        "regex": "Navigator\\.firefox",
         "isRecursive": false
-    }, 
-    "type": "phrase", 
+    },
     "sendMode": "kb"
 }
