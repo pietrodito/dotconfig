@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=reMarkable Desktop Client
+GenericName=Desktop Client
+Exec=/usr/bin/reMarkable
+Icon=/home/ulys/.local/share/applications/rM.png
+Categories=Graphics;Office;
