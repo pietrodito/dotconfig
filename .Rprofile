@@ -1,1 +1,1 @@
-.libPaths("/home/ulys/R/library")
+.libPaths(Sys.getenv("R_LIBS_USER"))
