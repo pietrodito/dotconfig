@@ -1,1 +1,1 @@
-*/5 * * * * /home/ulys/Nextcloud/org/tools/export-google-calendar.sh
+* * * * * /home/ulys/Nextcloud/org/tools/export-google-calendar.sh
