@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Godot Engine
+GenericName=Desktop Client
+TryExec=/home/ulys/bin/Godot_v3.3.2-stable_mono_x11_64/Godot_v3.3.2-stable_mono_x11.64
+Exec=/home/ulys/bin/Godot_v3.3.2-stable_mono_x11_64/Godot_v3.3.2-stable_mono_x11.64
+Icon=/home/ulys/.local/share/applications/godot.png
+Type=Application
+Categories=GNOME;GTK;Utility;Development;
+StartupNotify=true
