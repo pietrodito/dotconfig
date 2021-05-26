@@ -91,6 +91,10 @@ if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='mvim'
 fi
 
+# Preferred editor for git and others
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
