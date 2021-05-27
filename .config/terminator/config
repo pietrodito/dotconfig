@@ -51,7 +51,7 @@
     background_darkness = 0.9
     background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Ubuntu Mono 18
+    font = iosevka 18
     foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
@@ -61,7 +61,7 @@
     background_darkness = 0.4
     background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Ubuntu Mono 18
+    font = iosevka 18
     foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
