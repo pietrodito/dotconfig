@@ -46,6 +46,8 @@
 # python venv
 
 stty -ixon -ixoff 2>/dev/null # really, no flow control.
+fortune -e -s | cowsay | center | lolcat
+
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -157,7 +159,7 @@ zplug "plugins/gitfast", from:oh-my-zsh
 zplug "webyneter/docker-aliases", use:docker-aliases.plugin.zsh
 
 # Load after modute/editor to enable VI bindings
-zplug "sharat87/zsh-vim-mode", defer:3
+# zplug "sharat87/zsh-vim-mode", defer:3
 
 # Modules from zsh-usesr
 zplug "zsh-users/zsh-completions"
@@ -238,15 +240,6 @@ zplug "lukechilds/zsh-nvm"
 
 # Python virtualenv management
 
-# pyenv
-# XXX pyenv can seriously slow down shell bootstrap
-# https://stackoverflow.com/a/41573588
-# https://alysivji.github.io/setting-up-pyenv-virtualenvwrapper.html
-# https://gist.github.com/Geoyi/f55ed54d24cc9ff1c14bd95fac21c042
-# https://github.com/pyenv/pyenv/issues/784
-# https://github.com/pyenv/pyenv-virtualenv/issues/42
-# XXX not using pyenv-virtualenv as I want virtualenvs under ~/.virtualenvs
-zplug 'pyenv/pyenv', as:"command", use:"bin/*"
 
 # https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv
 # virtualenvs are stored in ~/.virtualenvs
@@ -265,7 +258,7 @@ zplug 'pyenv/pyenv', as:"command", use:"bin/*"
 # Deprecated?
 # mkvenv --python /usr/bin/python2
 # mkvenv --python /usr/bin/python3
-zplug "MichaelAquilina/zsh-autoswitch-virtualenv"
+# zplug "MichaelAquilina/zsh-autoswitch-virtualenv"
 
 # Potentially lighter than pyenv
 # https://github.com/cxreg/smartcd
@@ -292,10 +285,7 @@ zstyle ':prezto:*:*' color 'yes'
 # prezto/editor
 zstyle ':prezto:module:editor' key-bindings 'vi'
 zstyle ':prezto:module:editor' dot-expansion 'yes'
-zstyle ':prezto:module:tmux:auto-start' local 'no'
-zstyle ':prezto:module:tmux:auto-start' remote 'yes'
-zstyle ':prezto:module:tmux:session' name 'work'
-zstyle ':prezto:module:tmux:iterm' integrate 'no'
+zstyle ':prezto:module:tmux:auto-start' local 'yes'
 
 zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
@@ -309,6 +299,8 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load
+
+
 
 # Path management
 typeset -U path
@@ -339,11 +331,11 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60,bold"
 bindkey '^l' autosuggest-accept
 bindkey '^ ' clear-screen
 
-# XXX Slowing doing the prompt
-if (( $+commands[pyenv] )); then
-  export PYENV_ROOT="${ZPLUG_HOME}/repos/pyenv/pyenv"
-  eval "$(pyenv init --no-rehash - zsh)"
-fi
+# # XXX Slowing doing the prompt
+# if (( $+commands[pyenv] )); then
+#   export PYENV_ROOT="${ZPLUG_HOME}/repos/pyenv/pyenv"
+#   eval "$(pyenv init --no-rehash - zsh)"
+# fi
 
 # ZSH options
 
@@ -664,17 +656,9 @@ fi
 # Load RVM into a shell session *as a function*
 [ -s "$HOME/.rvm/scripts/rvm" ] && . "$HOME/.rvm/scripts/rvm"
 
-if (( $+commands[fortune] )); then
-  if (( $+commands[cowsay] )); then
-    fortune -o | cowsay
-  else
-    fortune -o
-  fi
-fi
 
 # fasd
 eval "$(fasd --init auto)"
 
 # (cat ~/.cache/wal/sequences &)
-clear && freshfetch
 
