@@ -300,7 +300,7 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load
 
-
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 # Path management
 typeset -U path
