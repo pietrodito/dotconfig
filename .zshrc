@@ -117,8 +117,9 @@ export PATH="$HOME/.emacs.d/bin:$PATH"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 #
+
 #
-#
+# TMUX
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
     tmux attach -t default || tmux new -s default
 fi
