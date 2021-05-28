@@ -46,7 +46,7 @@
 # python venv
 
 stty -ixon -ixoff 2>/dev/null # really, no flow control.
-fortune -e -s | cowsay | center | lolcat
+# fortune -e -s | cowsay | center | lolcat
 
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
@@ -328,8 +328,8 @@ export YSU_HARDCORE=0
 
 # For zsh-users/zsh-completions
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60,bold"
-bindkey '^l' clear-screen
-bindkey '^ ' autosuggest-accept
+bindkey '^ ' clear-screen
+bindkey '^l' autosuggest-accept
 
 # # XXX Slowing doing the prompt
 # if (( $+commands[pyenv] )); then
