@@ -328,8 +328,8 @@ export YSU_HARDCORE=0
 
 # For zsh-users/zsh-completions
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=60,bold"
-bindkey '^l' autosuggest-accept
-bindkey '^ ' clear-screen
+bindkey '^l' clear-screen
+bindkey '^ ' autosuggest-accept
 
 # # XXX Slowing doing the prompt
 # if (( $+commands[pyenv] )); then
