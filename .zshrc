@@ -46,7 +46,7 @@
 # python venv
 
 stty -ixon -ixoff 2>/dev/null # really, no flow control.
-# fortune -e -s | cowsay | center | lolcat
+fortune -e -s | cowsay | center | lolcat
 
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
