@@ -643,6 +643,11 @@ fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+# User scripts
+for file in ~/.zsh_user; do
+        source "$file"
+    done
+
 if [[ "$OSTYPE" == "darwin"* ]]; then
   # Add go to the path
   if [ -d "$HOME/go" ]; then
