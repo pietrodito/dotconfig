@@ -10,10 +10,10 @@
       user-mail-address "pierre.balaye@gmail.com")
 
 ;; Fonts
-(setq doom-font (font-spec :family "Input Mono" :size 20 :weight 'semi-light)
-      doom-variable-pitch-font (font-spec :family "Fira Sans") ; inherits `doom-font''s :size
-      doom-unicode-font (font-spec :family "Input Mono Narrow" :size 20)
-      doom-big-font (font-spec :family "Fira Mono" :size 30))
+(setq doom-font (font-spec :family "Iosevka" :size 20 :weight 'semi-light)
+      doom-variable-pitch-font (font-spec :family "Iosevka") ; inherits `doom-font''s :size
+      doom-unicode-font (font-spec :family "Iosevka" :size 20)
+      doom-big-font (font-spec :family "Iosevka" :size 30))
 
 ;; Full screen at startup
 (add-hook 'window-setup-hook #'toggle-frame-fullscreen)

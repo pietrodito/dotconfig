@@ -3,6 +3,7 @@
 alias c='bat'
 alias cat='bat'
 alias v='vim'
+alias vi='vim'
 alias cd..='cd ..'
 alias md='mkdir -p'
 alias snow='systemctl poweroff -i'
