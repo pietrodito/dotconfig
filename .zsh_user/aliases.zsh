@@ -1,7 +1,7 @@
 # Ulys aliases
 
-alias c='batcat'
-alias cat='batcat'
+alias c='bat'
+alias cat='bat'
 alias v='vim'
 alias cd..='cd ..'
 alias md='mkdir -p'

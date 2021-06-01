@@ -51,7 +51,7 @@ stty -ixon -ixoff 2>/dev/null # really, no flow control.
     fortune -e -s | tr '\n' ' ' | \
                     sed -e "s/ A:/\n\nA:/g"| \
                     sed -e "s/--/\n\n--/g" | \
-                    cowsay | center | lolcat
+                    cowsay | ~/bin/center | lolcat
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
