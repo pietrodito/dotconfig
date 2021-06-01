@@ -30,7 +30,15 @@
 (setq display-line-numbers-type 'relative)
 (setq display-line-numbers-type nil)
 
+;; Hybrid mode
+(setq evil-disable-insert-state-bindings t)
 
+(display-time)
+(display-battery-mode 1)
+(global-subword-mode 1)
+
+(setq confirm-kill-emacs nil)
+;;
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
@@ -47,3 +55,6 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+(map! :leader
+      (:prefix-map ("a" . "applications")
+       (:desc "dired" "d" #'dired)))
