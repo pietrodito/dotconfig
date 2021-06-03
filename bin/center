@@ -16,12 +16,18 @@ offset = biggest_line_size / 2
 perfect_center = columns / 2
 padsize =  int(perfect_center - offset)
 spacing = ' ' * padsize # space char
+first_spacing = ' ' * (padsize - 2)
 
 text = str()
+first = True
 for line in linelist:
-    text += (spacing + line)
+    if first:
+        text += (first_spacing + line)
+        first = False
+    else:
+        text += (spacing + line)
 
 divider = spacing + ('─' * int(biggest_line_size)) # unicode 0x2500
 text += divider
 
-print(text, end="\n"*2)
+print("_", text, end="\n"*2)
