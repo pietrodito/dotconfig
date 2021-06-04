@@ -48,7 +48,7 @@
 stty -ixon -ixoff 2>/dev/null # really, no flow control.
 
 [[ $(tmux list-panes 2> /dev/null | wc -l) == 1 ]] && \
-    fortune -e -s | tr '\n' ' ' | \
+    fortune -a    | tr '\n' ' ' | \
                     sed -e "s/ A:/\n\nA:/g"| \
                     sed -e "s/--/\n\n--/g" | \
                     cowsay | ~/bin/center | lolcat
