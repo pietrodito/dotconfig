@@ -30,4 +30,4 @@ for line in linelist:
 divider = spacing + ('─' * int(biggest_line_size)) # unicode 0x2500
 text += divider
 
-print("_", text, end="\n"*2)
+print("__", text, end="\n"*2)
