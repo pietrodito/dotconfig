@@ -18,9 +18,7 @@
 ;; Full screen at startup
 (add-hook 'window-setup-hook #'toggle-frame-fullscreen)
 
-;; Theme
-(setq doom-theme 'doom-dracula)
-
+;; Theme (setq doom-theme 'doom-dracula)
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
@@ -33,11 +31,26 @@
 ;; Hybrid mode
 (setq evil-disable-insert-state-bindings t)
 
-(display-time)
 (display-battery-mode 1)
 (global-subword-mode 1)
+(display-time-mode 1)                             ; Enable time in the mode-line
 
 (setq confirm-kill-emacs nil)
+
+(setq-default
+ delete-by-moving-to-trash t            ; Delete files to trash
+ window-combination-resize t            ; take new window space from all other windows (not just current)
+ x-stretch-cursor t)                    ; Stretch cursor to the glyph width
+
+(setq undo-limit 80000000               ; Raise undo-limit to 80Mb
+      evil-want-fine-undo t             ; Be more granular
+      auto-save-default t               ; Nobody likes to loose work, I certainly don't
+      truncate-string-ellipsis "…"   ; Unicode ellispis are nicer than "...", and also save /precious/ space
+      password-cache-expiry nil         ; I can trust my computers ... can't I?
+      ;; scroll-preserve-screen-position 'always     ; Don't have `point' jump around
+      scroll-margin 2)                            ; It's nice to maintain a little margin
+
+
 ;;
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;

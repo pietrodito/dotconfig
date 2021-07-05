@@ -5,5 +5,4 @@ nmap <C-J> a<CR><Esc>k$
 nnoremap <F3> :.w !bash<CR>
 
 set clipboard=unnamedplus
-let g:snipMate = { 'snippet_version' : 1  }
 
