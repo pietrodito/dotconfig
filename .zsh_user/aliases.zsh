@@ -1,9 +1,11 @@
 # Ulys aliases
 
+alias t='time'
 alias c='batcat'
 alias cat='batcat'
 alias v='vim'
 alias vi='vim'
+alias e='emacs -nw'
 alias cd..='cd ..'
 alias md='mkdir -p'
 alias snow='systemctl poweroff -i'
