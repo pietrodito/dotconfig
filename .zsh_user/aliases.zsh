@@ -3,6 +3,7 @@
 alias t='time'
 alias c='batcat'
 alias cat='batcat'
+alias kbd='~/bin/kbd-setup'
 alias v='vim'
 alias vi='vim'
 alias e='emacs -nw'
