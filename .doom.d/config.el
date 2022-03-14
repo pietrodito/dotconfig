@@ -18,7 +18,12 @@
 ;; Full screen at startup
 (add-hook 'window-setup-hook #'toggle-frame-fullscreen)
 
-;; Theme (setq doom-theme 'doom-dracula)
+(setq doom-theme 'doom-horizon)
+
+;; Current projects
+(projectile-add-known-project "~/WinHome/Nextcloud/Poste-AHU/INCLUDE/ENRICCO/SAS_REBOOT_2022")
+
+;;
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
