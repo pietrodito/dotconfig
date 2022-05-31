@@ -18,7 +18,7 @@
 ;; Full screen at startup
 (add-hook 'window-setup-hook #'toggle-frame-fullscreen)
 
-(setq doom-theme 'tsdh-dark)
+(setq doom-theme 'doom-nord)
 
 ;; Current projects
 
