@@ -1,5 +1,6 @@
 # Ulys aliases
 
+alias g='emacs -nw ~/WinHome/Nextcloud/org/guitar-repertoire.org'
 alias t='time'
 alias c='batcat'
 alias cat='batcat'

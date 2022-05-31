@@ -18,10 +18,9 @@
 ;; Full screen at startup
 (add-hook 'window-setup-hook #'toggle-frame-fullscreen)
 
-(setq doom-theme 'doom-horizon)
+(setq doom-theme 'tsdh-dark)
 
 ;; Current projects
-(projectile-add-known-project "~/WinHome/Nextcloud/Poste-AHU/INCLUDE/ENRICCO/SAS_REBOOT_2022")
 
 ;;
 ;; If you use `org' and don't want your org files in the default location below,
@@ -56,6 +55,11 @@
       scroll-margin 2)                            ; It's nice to maintain a little margin
 
 
+;; org to pdf config
+(setq org-latex-pdf-process 
+      '("pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+        "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
+        "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
 ;;
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
