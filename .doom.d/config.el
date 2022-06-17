@@ -15,9 +15,8 @@
       doom-unicode-font (font-spec :family "DejaVu Sans Mono" :size 20)
       doom-big-font (font-spec :family "DejaVu Sans Mono" :size 30))
 
-;; Full screen at startup
+;; Appearance
 (add-hook 'window-setup-hook #'toggle-frame-fullscreen)
-
 (setq doom-theme 'doom-nord)
 
 ;; Current projects
@@ -60,6 +59,8 @@
       '("pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
         "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"
         "pdflatex -shell-escape -interaction nonstopmode -output-directory %o %f"))
+
+
 ;;
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
