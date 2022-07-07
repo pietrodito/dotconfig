@@ -2,8 +2,7 @@
 
 alias g='emacs -nw ~/WinHome/Nextcloud/org/guitar-repertoire.org'
 alias t='time'
-alias c='batcat'
-alias cat='batcat'
+alias c='bat'
 alias kbd='~/bin/kbd-setup'
 alias v='vim'
 alias vi='vim'
