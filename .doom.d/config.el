@@ -81,3 +81,5 @@
 (map! :leader
       (:prefix-map ("a" . "applications")
        (:desc "dired" "d" #'dired)))
+
+(use-package! kbd-mode)

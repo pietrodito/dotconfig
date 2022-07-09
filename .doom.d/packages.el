@@ -50,3 +50,7 @@
 ;(unpin! t)
 
 (package! simple-httpd)
+
+(package! kbd-mode
+  :recipe (:host github
+           :repo "kmonad/kbd-mode"))
