@@ -1,6 +1,7 @@
 # Ulys aliases
 
-alias g='emacs -nw ~/WinHome/Nextcloud/org/guitar-repertoire.org'
+alias g='emacsclient -nw ~/Comp/balaye-net/content/guitar-repertoire.org'
+alias m='emacsclient -nw -e "(magit-status \"$(git rev-parse --show-toplevel)\")"'
 alias t='time'
 alias c='bat'
 alias kbd='~/bin/kbd-setup'
