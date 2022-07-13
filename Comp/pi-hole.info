@@ -1,0 +1,9 @@
+
+IPv4: 192.168.1.24                                            
+IPv6: 2a01:cb0c:9cf:7900:746e:90d3:789e:e50f                  
+If you have not done so already, the above IP should be set to
+static.                                                       
+View the web interface at http://pi.hole/admin or             
+http://192.168.1.24/admin                                     
+                                                            
+Your Admin Webpage login password is EJ2rK36X                 
