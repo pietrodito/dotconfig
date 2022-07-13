@@ -3,3 +3,5 @@
 	name = pietrodito
 [credential]
 	helper = store
+[init]
+	defaultBranch = main
