@@ -1,0 +1,2 @@
+nmcli connection down wg0
+nmcli connection down wg1
