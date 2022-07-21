@@ -32,7 +32,7 @@ function init () {
     item.connect('activate', () => {
         Main.notify(_('Whatʼs up, folks?'));
     });
-    panelButton.menu.addMenuItem(item);
+    //panelButton.menu.addMenuItem(item);
 
     const Mainloop = imports.mainloop;
     let timeout = Mainloop.timeout_add_seconds(3, () => {
