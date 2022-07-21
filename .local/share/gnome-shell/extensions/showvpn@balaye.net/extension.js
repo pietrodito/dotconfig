@@ -2,6 +2,10 @@ const GETTEXT_DOMAIN = 'my-indicator-extension';
 
 const { GObject, St, Clutter, GLib, Gio } = imports.gi;
 
+const Util = imports.misc.util;
+
+const Mainloop = imports.mainloop;
+
 const ExtensionUtils = imports.misc.extensionUtils;
 const Main = imports.ui.main;
 const PanelMenu = imports.ui.panelMenu;
@@ -18,26 +22,37 @@ class Indicator extends PanelMenu.Button {
         const [, contents, etag] = this._file.load_contents(null);
         const decoder = new TextDecoder('utf-8');
         const contentsString = decoder.decode(contents).trim();
-        return "ShowVPN: " + contentsString ;
+        return "VPN: " + contentsString ;
     }
 
     _init() {
         super._init(0.0, _('My Shiny Indicator'));
 
         this._file = Gio.File.new_for_uri(
-             'file:///home/ulys/.config/wireguard/current_vpn');
+             'file:///home/ulys/.config/wireguard/.current_vpn');
         let panelButtonText = new St.Label({
                     text : this._read_current_vpn(),
-                    y_align: Clutter.ActorAlign.CENTER,
+                    y_align: Clutter.ActorAlign.CENTER
                 });
-        log('*--* après erreur *--* ');
+
         this.add_child(panelButtonText);
 
-        let item = new PopupMenu.PopupMenuItem(_('Show Notification'));
-        item.connect('activate', () => {
-            Main.notify(_('Whatʼs up, folks?'));
-        });
-        this.menu.addMenuItem(item);
+        var files_string = GLib.spawn_command_line_sync(
+            "ls .config/wireguard/")[1].toString().trim();
+
+        var files = files_string.split("\n");
+
+        for (let i in files) {
+            var item = new PopupMenu.PopupMenuItem(_(files[i]));
+            item.connect('activate',
+               () => {Util.spawn(['vpn', files[i]]);});
+            this.menu.addMenuItem(item);
+        }
+
+        let timeout = Mainloop.timeout_add_seconds(3, () => {
+            panelButtonText.set_text(this._read_current_vpn())
+            return true;
+         });
     }
 });
 

@@ -12,34 +12,47 @@ remove_extension () {
 remove_vpn () {
   nmcli connection delete .current 2> /dev/null > /dev/null
   rm -f $dir_conf/.current.conf 2> /dev/null
-  echo "" > ~/.config/wireguard/current_vpn
+  echo "" > ~/.config/wireguard/.current_vpn
 }
 
 change_vpn () {
-  choosen_vpn=${vpns[user_input - 1]}
-
   nmcli connection delete .current 2> /dev/null > /dev/null
   cp $dir_conf/${choosen_vpn} $dir_conf/.current.conf
   nmcli connection import type wireguard file $dir_conf/.current.conf > /dev/null
   nmcli connection up .current > /dev/null
   remove_extension $choosen_vpn
-  echo $short_name > $dir_conf/current_vpn
+  echo $short_name > $dir_conf/.current_vpn
 }
 
-vpns=($(cd $dir_conf && ls *.conf))
+no_args_dialog () {
+    vpns=($(cd $dir_conf && ls *.conf))
 
- echo "0) No VPN"
- for i in $(seq 1 ${#vpns[@]}); do
-         remove_extension ${vpns[i-1]}
-         echo "$i) $short_name"
-  done
-  current_vpn=`cat $dir_conf/current_vpn`
-  echo  "Your choice? (Current: $current_vpn)"
-  echo -n "> "
-  read user_input
+    echo "0) No VPN"
+    for i in $(seq 1 ${#vpns[@]}); do
+            remove_extension ${vpns[i-1]}
+            echo "$i) $short_name"
+     done
+     current_vpn=`cat $dir_conf/.current_vpn`
+     echo  "Your choice? (Current: $current_vpn)"
+     echo -n "> "
+     read user_input
 
-  if [ "$user_input" -eq 0 ]; then
-      remove_vpn
+     if [ "$user_input" -eq 0 ]; then
+         remove_vpn
+     else
+         choosen_vpn=${vpns[user_input - 1]}
+         change_vpn
+    fi
+}
+
+
+if [ $# -eq 0 ]; then
+    no_args_dialog
+else
+  if [ $1 = "off" ]; then
+    remove_vpn
   else
-      change_vpn
+    choosen_vpn=$1
+    change_vpn
   fi
+fi
