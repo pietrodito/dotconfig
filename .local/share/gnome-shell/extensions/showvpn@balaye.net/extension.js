@@ -38,14 +38,14 @@ class Indicator extends PanelMenu.Button {
         this.add_child(panelButtonText);
 
         var files_string = GLib.spawn_command_line_sync(
-            "ls .config/wireguard/")[1].toString().trim();
+            "ls /home/ulys/.config/wireguard/")[1].toString().trim();
 
-        var files = files_string.split("\n");
+        var files = ("off\n" + files_string).split("\n");
 
         for (let i in files) {
             var item = new PopupMenu.PopupMenuItem(_(files[i]));
             item.connect('activate',
-               () => {Util.spawn(['vpn', files[i]]);});
+               () => {Util.spawn(['/home/ulys/bin/vpn', files[i]]);});
             this.menu.addMenuItem(item);
         }
 

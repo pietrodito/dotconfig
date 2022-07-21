@@ -45,6 +45,8 @@ no_args_dialog () {
     fi
 }
 
+echo "Call with arg $1" >> /home/ulys/tmp/log
+echo "Call with arg $1" >> tmp/log2
 
 if [ $# -eq 0 ]; then
     no_args_dialog
