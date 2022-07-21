@@ -1,0 +1,8 @@
+{
+  "name": "ShowVPN",
+  "description": "Show current .conf file used by WireGuard",
+  "uuid": "showvpn@balaye.net",
+  "shell-version": [
+    "42"
+  ]
+}
