@@ -1,2 +1,0 @@
-no-vpn
-nmcli connection up wg1
