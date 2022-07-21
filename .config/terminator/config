@@ -58,7 +58,8 @@
     show_titlebar = False
     scrollbar_position = hidden
     use_system_font = False
-  [[New Profile]]
+  [[Translucid]]
+    fullscreen = True
     visible_bell = True
     icon_bell = False
     background_darkness = 0.4
@@ -72,7 +73,7 @@
 [layouts]
   [[default]]
     [[[child0]]]
-      fullscreen = True
+      fullscreen = False
       last_active_term = 512badb6-eb7e-4b2b-8411-db08e29353b3
       last_active_window = True
       maximised = False
