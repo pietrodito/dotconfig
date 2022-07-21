@@ -1,11 +1,7 @@
-// Example #1
-
 const { St, Clutter, GLib, Gio } = imports.gi;
 const Main = imports.ui.main;
-const PopupMenu = imports.ui.popupMenu;
 
 let panelButton;
-
 
 function init () {
 
@@ -18,7 +14,6 @@ function init () {
         return "VPN: " + contentsString;
     }
 
-
     panelButton = new St.Bin({
         style_class : "panel-button",
     });
@@ -28,11 +23,6 @@ function init () {
     });
     panelButton.set_child(panelButtonText);
 
-    let item = new PopupMenu.PopupMenuItem(_('Show Notification'));
-    item.connect('activate', () => {
-        Main.notify(_('Whatʼs up, folks?'));
-    });
-    //panelButton.menu.addMenuItem(item);
 
     const Mainloop = imports.mainloop;
     let timeout = Mainloop.timeout_add_seconds(3, () => {
