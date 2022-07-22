@@ -16,6 +16,10 @@ const _ = ExtensionUtils.gettext;
 const Indicator = GObject.registerClass(
 class Indicator extends PanelMenu.Button {
 
+    static _remove_conf (complete_filename) {
+        let filename = complete_filename.replace(/\.conf$/, "");
+        return filename;
+    }
 
     _read_current_vpn () {
 
@@ -43,7 +47,7 @@ class Indicator extends PanelMenu.Button {
         var files = ("off\n" + files_string).split("\n");
 
         for (let i in files) {
-            var item = new PopupMenu.PopupMenuItem(_(files[i]));
+            var item = new PopupMenu.PopupMenuItem(_(Indicator._remove_conf(files[i])));
             item.connect('activate',
                () => {Util.spawn(['/home/ulys/bin/vpn', files[i]]);});
             this.menu.addMenuItem(item);
