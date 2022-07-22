@@ -12,7 +12,7 @@ remove_extension () {
 remove_vpn () {
   nmcli connection delete .current 2> /dev/null > /dev/null
   rm -f $dir_conf/.current.conf 2> /dev/null
-  echo "" > ~/.config/wireguard/.current_vpn
+  echo "off" > ~/.config/wireguard/.current_vpn
 }
 
 change_vpn () {
