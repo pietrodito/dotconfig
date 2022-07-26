@@ -1,0 +1,5 @@
+## ~/bin/ssh-pi-distant.sh
+## Connexion à distance
+git -C ~/Comp/mon-ip-publique pull
+ssh ulys@`cat ~/Comp/mon-ip-publique/adresse-ip`
+
