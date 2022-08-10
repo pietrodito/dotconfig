@@ -1,3 +1,7 @@
-#!/bin/bash
+LOG=/home/ulys/tmp/log.txt
+echo
+echo *-*-*-*-*-*-*-*-*-*-*-* >> $LOG
+date >> $LOG
+echo "Disabled" >> $LOG
 
-gsettings set org.gnome.desktop.peripherals.touchpad send-events 'disabled'
+gsettings set org.gnome.desktop.peripherals.touchpad send-events 'disabled' >> $LOG 2>> $LOG

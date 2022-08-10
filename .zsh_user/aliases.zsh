@@ -1,5 +1,7 @@
 # Ulys aliases
 
+alias et='enable-touchpad'
+alias dt='disable-touchpad'
 alias g='emacsclient -nw ~/Comp/balaye-net/content/guitar-repertoire.org'
 alias m='emacsclient -nw -e "(magit-status \"$(git rev-parse --show-toplevel)\")"'
 alias t='time'
