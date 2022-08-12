@@ -1,5 +1,8 @@
 LOG=/home/ulys/tmp/log.txt
+DISPLAY=':0'
 echo
+echo *-*-*-*-*-*-*-*-*-*-*-* >> $LOG
+echo $DISPLAY
 echo *-*-*-*-*-*-*-*-*-*-*-* >> $LOG
 date >> $LOG
 echo "Disabled" >> $LOG
