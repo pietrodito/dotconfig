@@ -76,11 +76,8 @@ source "$ZPLUG_HOME/init.zsh"
 # zplug "lib/completion", from:oh-my-zsh
 
 # Load "emoji-cli" if "jq" is installed
-zplug "stedolan/jq", \
-    from:gh-r, \
-    as:command, \
-    rename-to:jq
-zplug "b4b4r07/emoji-cli", on:"stedolan/jq"
+
+zplug "b4b4r07/emoji-cli"
 
 # Improved directory listing
 # https://github.com/supercrabtree/k
@@ -203,12 +200,11 @@ zplug "sharat87/zsh-vim-mode", defer:3
 # Fuzzy command line completion: Ctrl-T
 # Grab binaries from GitHub Releases
 # and rename with the "rename-to:" tag
-zplug "junegunn/fzf-bin", \
+zplug "junegunn/fzf", \
     from:gh-r, \
     as:command, \
     rename-to:fzf, \
     use:"*${(L)$(uname -s)}*amd64*"
-zplug "junegunn/fzf", use:"shell/*.zsh", defer:2, on:"junegunn/fzf-bin"
 
 # https://github.com/hschne/fzf-git
 # use git <command> **
@@ -631,7 +627,6 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # User scripts
 #
