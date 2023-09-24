@@ -200,11 +200,11 @@ zplug "sharat87/zsh-vim-mode", defer:3
 # Fuzzy command line completion: Ctrl-T
 # Grab binaries from GitHub Releases
 # and rename with the "rename-to:" tag
-zplug "junegunn/fzf", \
-    from:gh-r, \
-    as:command, \
-    rename-to:fzf, \
-    use:"*${(L)$(uname -s)}*amd64*"
+# zplug "junegunn/fzf", \
+#     from:gh-r, \
+#     as:command, \
+#     rename-to:fzf, \
+#     use:"*${(L)$(uname -s)}*amd64*"
 
 # https://github.com/hschne/fzf-git
 # use git <command> **

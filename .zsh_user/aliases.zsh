@@ -9,10 +9,8 @@ alias c='bat'
 alias kbd='~/bin/kbd-setup'
 alias v='vim'
 alias vi='vim'
-alias vs='code .'
 alias e='emacsclient -nw'
 alias cd..='cd ..'
-alias lh='sh -c "firefox-developer-edition http://localhost/ &> /dev/null &"'
 alias md='mkdir -p'
 alias snow='systemctl poweroff -i'
 alias rnow='systemctl reboot -i'
@@ -21,4 +19,11 @@ alias config='/usr/bin/git --git-dir=$HOME/Comp/dotconfig/ --work-tree=$HOME'
 alias winconf='/usr/bin/git --git-dir=$HOME/Comp/winconfig/ --work-tree=/mnt/c/Users/pierr/'
 alias l='exa -l'
 alias la='exa -la'
+alias pm='podman'
+
+alias vs='code .'
+
+lh () {sh -c "firefox-developer-edition http://localhost:$1 &> /dev/null &"}
 gps () {ps -ax | grep $1}
+
+alias rs='lh 8787'
