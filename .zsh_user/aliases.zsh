@@ -21,9 +21,12 @@ alias l='exa -l'
 alias la='exa -la'
 alias pm='podman'
 
+alias gst='git status . -s'
+
 alias vs='code .'
 
 lh () {sh -c "firefox-developer-edition http://localhost:$1 &> /dev/null &"}
 gps () {ps -ax | grep $1}
 
 alias rs='lh 8787'
+alias rsudo='docker exec -it rstudio-server bash'

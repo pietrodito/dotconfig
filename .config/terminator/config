@@ -50,30 +50,29 @@
   [[default]]
     visible_bell = True
     icon_bell = False
+    background_color = "#ffffff"
     background_darkness = 0.9
     background_type = transparent
-    cursor_color = "#aaaaaa"
     font = Iosevka 18
-    foreground_color = "#ffffff"
+    foreground_color = "#000000"
     show_titlebar = False
     scrollbar_position = hidden
     use_system_font = False
   [[Translucid]]
-    fullscreen = True
     visible_bell = True
     icon_bell = False
+    background_color = "#ffffff"
     background_darkness = 0.4
     background_type = transparent
-    cursor_color = "#aaaaaa"
     font = Iosevka 18
-    foreground_color = "#ffffff"
+    foreground_color = "#000000"
     show_titlebar = False
     scrollbar_position = hidden
     use_system_font = False
 [layouts]
   [[default]]
     [[[child0]]]
-      fullscreen = False
+      fullscreen = True
       last_active_term = 512badb6-eb7e-4b2b-8411-db08e29353b3
       last_active_window = True
       maximised = False
