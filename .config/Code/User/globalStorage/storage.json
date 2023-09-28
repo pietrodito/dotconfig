@@ -115,6 +115,17 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect/Dockerfile",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect/Dockerfile",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps/draft/dbConnect/Dockerfile"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/ulys/OS-setup/docker_apps/rstudio/second_server.sh",
                                         "path": "/home/ulys/OS-setup/docker_apps/rstudio/second_server.sh",
                                         "scheme": "file"
@@ -762,8 +773,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1658,19 +1668,19 @@
         }
     },
     "theme": "vs",
-    "themeBackground": "#ffffff",
+    "themeBackground": "#f5f5f5",
     "windowSplash": {
         "zoomLevel": 2,
         "baseTheme": "vs",
         "colorInfo": {
             "foreground": "#616161",
-            "background": "#ffffff",
-            "editorBackground": "#ffffff",
-            "titleBarBackground": "#dddddd",
-            "activityBarBackground": "#2c2c2c",
-            "sideBarBackground": "#f3f3f3",
-            "statusBarBackground": "#007acc",
-            "statusBarNoFolderBackground": "#68217a"
+            "background": "#f5f5f5",
+            "editorBackground": "#f5f5f5",
+            "titleBarBackground": "#c4b7d7",
+            "activityBarBackground": "#ededf5",
+            "sideBarBackground": "#f2f2f2",
+            "statusBarBackground": "#705697",
+            "statusBarNoFolderBackground": "#705697"
         },
         "layoutInfo": {
             "sideBarSide": "left",
