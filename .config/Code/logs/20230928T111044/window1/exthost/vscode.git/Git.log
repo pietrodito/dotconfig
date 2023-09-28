@@ -10,3 +10,4 @@
 2023-09-28 11:10:46.119 [info] > git rev-parse --show-toplevel [2ms]
 2023-09-28 11:10:46.292 [info] > git rev-parse --show-toplevel [2ms]
 2023-09-28 11:11:16.359 [info] > git rev-parse --show-toplevel [2ms]
+2023-09-28 11:13:34.796 [info] > git rev-parse --show-toplevel [3ms]
