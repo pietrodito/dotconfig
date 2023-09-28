@@ -1,0 +1,13 @@
+2023-09-28 09:01:12.225 [info] Extension host with pid 28425 started
+2023-09-28 09:01:12.225 [info] Skipping acquiring lock for /home/ulys/.config/Code/User/workspaceStorage/225b6074a2d8de82856a35005ee51316.
+2023-09-28 09:01:12.276 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-09-28 09:01:12.281 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-09-28 09:01:12.306 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-09-28 09:01:12.358 [info] Eager extensions activated
+2023-09-28 09:01:12.409 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-09-28 09:01:12.432 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-09-28 09:01:12.435 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-09-28 09:01:12.535 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-09-28 09:01:21.093 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-09-28 09:02:25.821 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-28 09:02:30.826 [info] Extension host with pid 28425 exiting with code 0

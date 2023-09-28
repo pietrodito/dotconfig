@@ -50,11 +50,10 @@
   [[default]]
     visible_bell = True
     icon_bell = False
-    background_color = "#ffffff"
     background_darkness = 0.9
     background_type = transparent
     font = Iosevka 18
-    foreground_color = "#000000"
+    foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
     use_system_font = False
@@ -63,6 +62,27 @@
     icon_bell = False
     background_color = "#ffffff"
     background_darkness = 0.4
+    background_type = transparent
+    font = Iosevka 18
+    foreground_color = "#000000"
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+  [[Translucid 2]]
+    visible_bell = True
+    icon_bell = False
+    background_darkness = 0.4
+    background_type = transparent
+    font = Iosevka 18
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    use_system_font = False
+  [[white]]
+    visible_bell = True
+    icon_bell = False
+    background_color = "#ffffff"
+    background_darkness = 0.9
     background_type = transparent
     font = Iosevka 18
     foreground_color = "#000000"

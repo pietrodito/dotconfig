@@ -1,0 +1,7 @@
+2023-09-28 11:11:14.678 [info] Getting Manifest... vscodevim.vim
+2023-09-28 11:11:14.683 [info] Installing extension: vscodevim.vim
+2023-09-28 11:11:16.190 [warning] Extension signature verification failed with error 'UnknownError': vscodevim.vim
+2023-09-28 11:11:16.254 [info] Extracted extension to file:///home/ulys/.vscode/extensions/vscodevim.vim-1.26.0: vscodevim.vim
+2023-09-28 11:11:16.260 [info] Renamed to /home/ulys/.vscode/extensions/vscodevim.vim-1.26.0
+2023-09-28 11:11:16.262 [info] Extracting extension completed. vscodevim.vim
+2023-09-28 11:11:16.272 [info] Extension installed successfully: vscodevim.vim
