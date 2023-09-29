@@ -14,3 +14,18 @@
 2023-09-28 11:13:34.679 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2023-09-28 11:13:34.736 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2023-09-28 11:15:00.483 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockerfile'
+2023-09-28 11:19:11.470 [info] Extension host terminating: renderer closed the MessagePort
+2023-09-28 11:19:11.494 [error] TypeError: r.some is not a function
+	at d.saveToDisk (/home/ulys/.vscode/extensions/vscodevim.vim-1.26.0/out/extension.js:2:671249)
+	at t.deactivate (/home/ulys/.vscode/extensions/vscodevim.vim-1.26.0/out/extension.js:2:211396)
+	at n.Z (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:9460)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7585
+	at Array.map (<anonymous>)
+	at n.S (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7572)
+	at n.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:118:7844)
+	at o.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:1513)
+	at D (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:9800)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:135:6225)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-09-28 11:19:16.493 [info] Extension host with pid 159911 exiting with code 0

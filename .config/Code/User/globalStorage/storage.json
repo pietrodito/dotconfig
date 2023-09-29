@@ -3,9 +3,12 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/ulys/OS-setup/docker_apps/libreoffice": "__default__profile__",
-            "file:///home/ulys/Downloads": "__default__profile__",
             "file:///home/ulys/OS-setup/docker_apps/rstudio": "__default__profile__",
-            "file:///home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect": "__default__profile__"
+            "file:///home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect": "__default__profile__",
+            "file:///home/ulys/Downloads": "__default__profile__",
+            "file:///home/ulys/Comp/Learning/learning_docker/ENV_seen_by_user": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps/draft/makeDeploy": "__default__profile__",
+            "file:///home/ulys/Comp/Learning/learning_docker/GUI": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -15,7 +18,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect"
+                "folderUri": "file:///home/ulys/Comp/Learning/learning_docker/GUI"
             }
         ],
         "emptyWindows": []
@@ -68,6 +71,50 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learning/learning_docker/GUI",
+                                        "path": "/home/ulys/Comp/Learning/learning_docker/GUI",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learning/learning_docker/GUI"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/makeDeploy",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/makeDeploy",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps/draft/makeDeploy"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learning/learning_docker/ENV_seen_by_user",
+                                        "path": "/home/ulys/Comp/Learning/learning_docker/ENV_seen_by_user",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learning/learning_docker/ENV_seen_by_user"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Downloads",
+                                        "path": "/home/ulys/Downloads",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect",
                                         "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect",
                                         "scheme": "file"
@@ -90,17 +137,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Downloads",
-                                        "path": "/home/ulys/Downloads",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/ulys/OS-setup/docker_apps/libreoffice",
                                         "path": "/home/ulys/OS-setup/docker_apps/libreoffice",
                                         "scheme": "file"
@@ -110,6 +146,50 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learning/learning_docker/GUI/docker-compose.yml",
+                                        "path": "/home/ulys/Comp/Learning/learning_docker/GUI/docker-compose.yml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learning/learning_docker/GUI/docker-compose.yml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/makeDeploy/Dockerfile",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/makeDeploy/Dockerfile",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps/draft/makeDeploy/Dockerfile"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learning/learning_docker/ENV_seen_by_user/Dockerfile",
+                                        "path": "/home/ulys/Comp/Learning/learning_docker/ENV_seen_by_user/Dockerfile",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learning/learning_docker/ENV_seen_by_user/Dockerfile"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learning/learning_docker/postgres/app/Dockerfile",
+                                        "path": "/home/ulys/Comp/Learning/learning_docker/postgres/app/Dockerfile",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learning/learning_docker/postgres/app/Dockerfile"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -676,6 +756,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -764,8 +851,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -782,8 +868,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1448,6 +1533,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1687,21 +1777,21 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 256,
+            "sideBarWidth": 170,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/dbConnect",
-            "backupPath": "/home/ulys/.config/Code/Backups/04c54bacfb1a79856c6239e5ac19a98b",
+            "folder": "file:///home/ulys/Comp/Learning/learning_docker/GUI",
+            "backupPath": "/home/ulys/.config/Code/Backups/830a03cf605df4a48c98b83a4685ee32",
             "uiState": {
                 "mode": 0,
-                "x": 171,
-                "y": 423,
-                "width": 1024,
-                "height": 609
+                "x": 683,
+                "y": 74,
+                "width": 683,
+                "height": 683
             }
         },
         "openedWindows": []
