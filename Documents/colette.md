@@ -1,4 +1,4 @@
-A E I O U
+A E I O U Y
 
 J'aime bien jouer au parc avec filou.
 
@@ -19,19 +19,45 @@ SONS :
 
 DOU - FAN - RON - POU - VAU - PEAU - LEN - TROU - BRUN - BLONDE
 
-qqqqqqqqqqqqqqqqqqqqqqqqkalmsak
-aimexajk/xmn<,xlm,xlkamxkz<ljcm;skal
+ DP BQ
+ dp bq
 
+ BD
 
+ b  d  p  q
 
-papa caca 
 
 colette papa maman = amour
 
-soleil lune
-nuage pluie
-oiseau nid arbre
+soleil lune nuit jour étoile 
+nuage pluie vent
+oiseau nid arbre feuille tronc
 avion bateau voiture vélo
+
+sport
+rugby ballon
+
+Mon sport préféré c'est
+l'escalade.
+
+Colette va au sport le mercredi et le samedi.
+
+Elle sera ravie de savoir que sa copine va venir bientôt à la maison.
+
+Que vont-elles bien pouvoir faire ensemble ?
+
+Un atelier 
+
+| EST | ET
+
+arbre
+
+Il sera bientôt l'heure de faire ses devoirs car le soleil s'est couché depuis longtemps.
+
+
+
+
+
 
 
 

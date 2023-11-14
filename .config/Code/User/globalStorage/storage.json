@@ -18,11 +18,16 @@
             "file:///home/ulys/Comp/rstudio-projects/Apps/draft/PoC_db_updater_with_one_R_process_by_nature": "__default__profile__",
             "file:///home/ulys/Documents": "__default__profile__",
             "file:///home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority": "__default__profile__",
-            "file:///home/ulys/OS-setup/docker_apps/rstudio": "__default__profile__",
-            "file:///home/ulys": "__default__profile__",
-            "file:///home/ulys/Downloads": "__default__profile__",
             "file:///home/ulys/Comp/rstudio-projects/Apps/draft/updateDBnewColumn": "__default__profile__",
             "file:///home/ulys/Comp/learning_docker/debug_R_container": "__default__profile__",
+            "file:///home/ulys/OS-setup/docker_apps/rstudio": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps/draft/DILAVO-archive": "__default__profile__",
+            "file:///home/ulys/Comp/Haskell/projects": "__default__profile__",
+            "file:///home/ulys/tmp": "__default__profile__",
+            "file:///home/ulys/Downloads": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps/draft/build_js_minmal": "__default__profile__",
+            "file:///home/ulys": "__default__profile__",
             "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo": "__default__profile__"
         },
         "emptyWindows": {}
@@ -32,6 +37,9 @@
     "backupWorkspaces": {
         "workspaces": [],
         "folders": [
+            {
+                "folderUri": "file:///home/ulys/Comp/Haskell/projects"
+            },
             {
                 "folderUri": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo"
             }
@@ -97,23 +105,23 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/learning_docker/debug_R_container",
-                                        "path": "/home/ulys/Comp/learning_docker/debug_R_container",
+                                        "external": "file:///home/ulys",
+                                        "path": "/home/ulys",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/learning_docker/debug_R_container"
+                                    "label": "/home/ulys"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/updateDBnewColumn",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/updateDBnewColumn",
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/build_js_minmal",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/build_js_minmal",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/draft/updateDBnewColumn"
+                                    "label": "~/Comp/rstudio-projects/Apps/draft/build_js_minmal"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -130,12 +138,45 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys",
-                                        "path": "/home/ulys",
+                                        "external": "file:///home/ulys/tmp",
+                                        "path": "/home/ulys/tmp",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/ulys"
+                                    "label": "~/tmp"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Haskell/projects",
+                                        "path": "/home/ulys/Comp/Haskell/projects",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Haskell/projects"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/DILAVO-archive",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/DILAVO-archive",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps/draft/DILAVO-archive"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -152,48 +193,70 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority",
-                                        "path": "/home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority",
+                                        "external": "file:///home/ulys/Comp/learning_docker/debug_R_container",
+                                        "path": "/home/ulys/Comp/learning_docker/debug_R_container",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/learning_docker/GUI_with_setfacl_Xauthority"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Documents",
-                                        "path": "/home/ulys/Documents",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/PoC_db_updater_with_one_R_process_by_nature",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/PoC_db_updater_with_one_R_process_by_nature",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/draft/PoC_db_updater_with_one_R_process_by_nature"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects",
-                                        "path": "/home/ulys/Comp/rstudio-projects",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/rstudio-projects"
+                                    "label": "~/Comp/learning_docker/debug_R_container"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/tmp/diag_test.r",
+                                        "path": "/home/ulys/tmp/diag_test.r",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/tmp/diag_test.r"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/tmp/diag_dialvo.R",
+                                        "path": "/home/ulys/tmp/diag_dialvo.R",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/tmp/diag_dialvo.R"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Haskell/projects/learnyouahaskell.com/02-starting-out/list.hs",
+                                        "path": "/home/ulys/Comp/Haskell/projects/learnyouahaskell.com/02-starting-out/list.hs",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Haskell/projects/learnyouahaskell.com/02-starting-out/list.hs"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Pictures/Screenshots/Screenshot%20from%202023-10-30%2014-33-12.png",
+                                        "path": "/home/ulys/Pictures/Screenshots/Screenshot from 2023-10-30 14-33-12.png",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Pictures/Screenshots/Screenshot from 2023-10-30 14-33-12.png"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS/index.html",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS/index.html",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS/index.html"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -249,61 +312,6 @@
                                     },
                                     "enabled": true,
                                     "label": "~/Comp/learning_docker/GUI_with_setfacl_Xauthority/run.sh"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority/Dockerfile",
-                                        "path": "/home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority/Dockerfile",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/learning_docker/GUI_with_setfacl_Xauthority/Dockerfile"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/tmp/similar_container/db_updater/entrypoint.sh",
-                                        "path": "/home/ulys/tmp/similar_container/db_updater/entrypoint.sh",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/tmp/similar_container/db_updater/entrypoint.sh"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/tmp/similar_container/app/entrypoint.sh",
-                                        "path": "/home/ulys/tmp/similar_container/app/entrypoint.sh",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/tmp/similar_container/app/entrypoint.sh"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/tmp/no_passwd_test/pgadmin/servers.json",
-                                        "path": "/home/ulys/tmp/no_passwd_test/pgadmin/servers.json",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/tmp/no_passwd_test/pgadmin/servers.json"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/tmp/no_passwd_test/pgadmin/Dockerfile",
-                                        "path": "/home/ulys/tmp/no_passwd_test/pgadmin/Dockerfile",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/tmp/no_passwd_test/pgadmin/Dockerfile"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -706,16 +714,28 @@
                                     "checked": true
                                 },
                                 {
-                                    "id": "workbench.action.toggleActivityBarVisibility",
-                                    "label": "&&Activity Bar",
-                                    "checked": true
-                                },
-                                {
                                     "id": "workbench.action.togglePanel",
                                     "label": "&&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "submenuitem.ActivityBarPositionMenu",
+                                    "label": "Activity Bar Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.activityBarLocation.side",
+                                                "label": "&&Side",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.hide",
+                                                "label": "&&Hidden"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarPosition",
@@ -763,6 +783,27 @@
                                             {
                                                 "id": "workbench.action.alignPanelRight",
                                                 "label": "Right"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
+                                    "label": "Tab Bar",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.showMultipleEditorTabs",
+                                                "label": "Multiple Tabs",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.showEditorTab",
+                                                "label": "Single Tab"
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorTabs",
+                                                "label": "Hide"
                                             }
                                         ]
                                     }
@@ -940,7 +981,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1831,6 +1873,10 @@
                 "label": "Ctrl+Shift+B",
                 "userSettingsLabel": "ctrl+shift+b"
             },
+            "workbench.action.terminal.runSelectedText": {
+                "label": "Ctrl+Enter",
+                "userSettingsLabel": "ctrl+enter"
+            },
             "workbench.action.keybindingsReference": {
                 "label": "Ctrl+K Ctrl+R",
                 "isNative": false,
@@ -1858,7 +1904,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 170,
+            "sideBarWidth": 263,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1869,12 +1915,13 @@
             "backupPath": "/home/ulys/.config/Code/Backups/d2f9e9f9b362236fc1a8e22afea17014",
             "uiState": {
                 "mode": 0,
-                "x": 109,
-                "y": 629,
+                "x": 768,
+                "y": 408,
                 "width": 1024,
-                "height": 295
+                "height": 624
             }
         },
         "openedWindows": []
-    }
+    },
+    "telemetry.sqmId": ""
 }
