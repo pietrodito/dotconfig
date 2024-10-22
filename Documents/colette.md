@@ -54,6 +54,53 @@ arbre
 
 Il sera bientôt l'heure de faire ses devoirs car le soleil s'est couché depuis longtemps.
 
+BLAGUE : 
+Incroyable mais vrai, un chien a réussi à apprendre à lire !
+C'est très pratique car c'est un chien d'aveugle.
+
+BLAGUE :
+C'est deux jumeaux dans le ventre de leur mère.
+
+Le son EU :
+- fleur, peur, heureux, leur, le, 
+
+Les sons IEN, AIN, EIN, OIN :
+main, mien, rein, rien, tien, pain, bien, 
+loin, lien, sien, lucien, chien, 
+
+Mon chien va chercher le pain tout seul, est-ce que le tien sait le faire aussi ?
+
+Je suis parti loin de tout ce que j'aimais, ma famille me manque.
+
+Colette va faire un gros caca.
+
+Mon papa, je l'aime éternellement.
+
+Et si nous allions nous baigner à Tourcoing-les-Bains.
+
+ceci est un caca collé au cucu.
+
+J'ai un beau cheval qui s'appelle Dorée et qui mange du foin.
+
+Je n'habite pas très loin du métro.
+
+Le verbe être :
+Je suis un pirate
+Tu es une pirate
+Elle est une pirate
+Nous sommes des pirates
+Vous êtes des pirates
+Ils sont des pirates.
+
+Le verbe trouver :
+Je trouve 
+Tu trouves
+Il trouve
+Nous trouvons
+Vous trouvez
+Ils trouvent
+
+Mon père est un pirate.
 
 
 

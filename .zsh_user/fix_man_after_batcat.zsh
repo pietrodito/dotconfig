@@ -1,0 +1,1 @@
+export MANROFFOPT="-c"

@@ -1,5 +1,10 @@
 {
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Quiet Light",
-    "git.openRepositoryInParentFolders": "never"
+    "git.openRepositoryInParentFolders": "never",
+    "editor.rulers": [
+        80
+    ],
+    "workbench.startupEditor": "none",
+    "files.autoSave": "afterDelay"
 }

@@ -14,7 +14,6 @@
             "file:///home/ulys/tmp/pgadmin": "__default__profile__",
             "file:///home/ulys/tmp/no_passwd_test": "__default__profile__",
             "file:///home/ulys/tmp/similar_container": "__default__profile__",
-            "file:///home/ulys/Comp/rstudio-projects": "__default__profile__",
             "file:///home/ulys/Comp/rstudio-projects/Apps/draft/PoC_db_updater_with_one_R_process_by_nature": "__default__profile__",
             "file:///home/ulys/Documents": "__default__profile__",
             "file:///home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority": "__default__profile__",
@@ -25,10 +24,27 @@
             "file:///home/ulys/Comp/rstudio-projects/Apps/draft/DILAVO-archive": "__default__profile__",
             "file:///home/ulys/Comp/Haskell/projects": "__default__profile__",
             "file:///home/ulys/tmp": "__default__profile__",
-            "file:///home/ulys/Downloads": "__default__profile__",
             "file:///home/ulys/Comp/rstudio-projects/Apps/draft/build_js_minmal": "__default__profile__",
+            "file:///home/ulys/tmp/Server_Shiny_Restitution": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Analyses/Server_Shiny_Restitution": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Analyses/LAMORLAYE%20Recours%20post%20fermeture/data": "__default__profile__",
             "file:///home/ulys": "__default__profile__",
-            "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo": "__default__profile__"
+            "file:///home/ulys/Comp/rstudio-projects/JS_for_R/peity": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/my_packages/tabulatorr/draft/pureJS": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/JS_for_R/albator": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/JS_for_R/BidirectionalCommunication": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps/draft/switch": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/my_packages/tabulatorr": "__default__profile__",
+            "file:///home/ulys/Downloads": "__default__profile__",
+            "file:///home/ulys/Comp/Learn/Docker": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects": "__default__profile__",
+            "file:///home/ulys/Comp/Learn/R/cli": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps": "__default__profile__",
+            "file:///home/ulys/Comp/Learn/Docker/Install%20timedatectl%20on%20rocker": "__default__profile__",
+            "file:///home/ulys/Comp/Learn/R/multipleAppendersLogger": "__default__profile__",
+            "file:///home/ulys/tmp/debug%20db_updater": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo": "__default__profile__",
+            "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo.bak.after.refactor.ovaliDB.package": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -42,6 +58,9 @@
             },
             {
                 "folderUri": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo"
+            },
+            {
+                "folderUri": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo.bak.after.refactor.ovaliDB.package"
             }
         ],
         "emptyWindows": []
@@ -61,6 +80,18 @@
                     {
                         "id": "workbench.action.newWindow",
                         "label": "New &&Window"
+                    },
+                    {
+                        "id": "submenuitem.OpenProfile",
+                        "label": "New Window with Profile",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "workbench.profiles.actions.createProfile",
+                                    "label": "New Profile..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -94,6 +125,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo.bak.after.refactor.ovaliDB.package",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/dilavo.bak.after.refactor.ovaliDB.package",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps/dilavo.bak.after.refactor.ovaliDB.package"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo",
                                         "path": "/home/ulys/Comp/rstudio-projects/Apps/dilavo",
                                         "scheme": "file"
@@ -105,23 +147,78 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys",
-                                        "path": "/home/ulys",
+                                        "external": "file:///home/ulys/tmp/debug%20db_updater",
+                                        "path": "/home/ulys/tmp/debug db_updater",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "/home/ulys"
+                                    "label": "~/tmp/debug db_updater"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/build_js_minmal",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/build_js_minmal",
+                                        "external": "file:///home/ulys/Comp/Learn/R/multipleAppendersLogger",
+                                        "path": "/home/ulys/Comp/Learn/R/multipleAppendersLogger",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/draft/build_js_minmal"
+                                    "label": "~/Comp/Learn/R/multipleAppendersLogger"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learn/Docker/Install%20timedatectl%20on%20rocker",
+                                        "path": "/home/ulys/Comp/Learn/Docker/Install timedatectl on rocker",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learn/Docker/Install timedatectl on rocker"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects/Apps"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learn/R/cli",
+                                        "path": "/home/ulys/Comp/Learn/R/cli",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learn/R/cli"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/rstudio-projects",
+                                        "path": "/home/ulys/Comp/rstudio-projects",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/rstudio-projects"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/Comp/Learn/Docker",
+                                        "path": "/home/ulys/Comp/Learn/Docker",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Comp/Learn/Docker"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -135,150 +232,73 @@
                                     "label": "~/Downloads"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/tmp",
-                                        "path": "/home/ulys/tmp",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/tmp"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/Haskell/projects",
-                                        "path": "/home/ulys/Comp/Haskell/projects",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/Haskell/projects"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/DILAVO-archive",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/DILAVO-archive",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/draft/DILAVO-archive"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/OS-setup/docker_apps/rstudio",
-                                        "path": "/home/ulys/OS-setup/docker_apps/rstudio",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/OS-setup/docker_apps/rstudio"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/learning_docker/debug_R_container",
-                                        "path": "/home/ulys/Comp/learning_docker/debug_R_container",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/learning_docker/debug_R_container"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/tmp/diag_test.r",
-                                        "path": "/home/ulys/tmp/diag_test.r",
+                                        "external": "file:///home/ulys/tmp/debug%20db_updater/mco.oqn.2024.1.t1d2covid_5a.csv",
+                                        "path": "/home/ulys/tmp/debug db_updater/mco.oqn.2024.1.t1d2covid_5a.csv",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/tmp/diag_test.r"
+                                    "label": "~/tmp/debug db_updater/mco.oqn.2024.1.t1d2covid_5a.csv"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/tmp/diag_dialvo.R",
-                                        "path": "/home/ulys/tmp/diag_dialvo.R",
+                                        "external": "file:///home/ulys/Documents/OVALIDE/HAD_DGF/had.dgf.2024.4.TDB.csv",
+                                        "path": "/home/ulys/Documents/OVALIDE/HAD_DGF/had.dgf.2024.4.TDB.csv",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/tmp/diag_dialvo.R"
+                                    "label": "~/Documents/OVALIDE/HAD_DGF/had.dgf.2024.4.TDB.csv"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/Haskell/projects/learnyouahaskell.com/02-starting-out/list.hs",
-                                        "path": "/home/ulys/Comp/Haskell/projects/learnyouahaskell.com/02-starting-out/list.hs",
+                                        "external": "file:///home/ulys/Documents/OVALIDE/MCO_OQN/mco.oqn.2023.11.TDB.csv",
+                                        "path": "/home/ulys/Documents/OVALIDE/MCO_OQN/mco.oqn.2023.11.TDB.csv",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/Haskell/projects/learnyouahaskell.com/02-starting-out/list.hs"
+                                    "label": "~/Documents/OVALIDE/MCO_OQN/mco.oqn.2023.11.TDB.csv"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Pictures/Screenshots/Screenshot%20from%202023-10-30%2014-33-12.png",
-                                        "path": "/home/ulys/Pictures/Screenshots/Screenshot from 2023-10-30 14-33-12.png",
+                                        "external": "file:///home/ulys/Documents/OVALIDE/MCO_OQN/mco.oqn.2024.4.TDB.csv",
+                                        "path": "/home/ulys/Documents/OVALIDE/MCO_OQN/mco.oqn.2024.4.TDB.csv",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Pictures/Screenshots/Screenshot from 2023-10-30 14-33-12.png"
+                                    "label": "~/Documents/OVALIDE/MCO_OQN/mco.oqn.2024.4.TDB.csv"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS/index.html",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS/index.html",
+                                        "external": "file:///home/ulys/Documents/OVALIDE/MCO_OQN/mco.oqn.2024.1.TDB.csv",
+                                        "path": "/home/ulys/Documents/OVALIDE/MCO_OQN/mco.oqn.2024.1.TDB.csv",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/draft/Bidirectional_JS/exploreJS/index.html"
+                                    "label": "~/Documents/OVALIDE/MCO_OQN/mco.oqn.2024.1.TDB.csv"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo/.env",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/dilavo/.env",
+                                        "external": "file:///home/ulys/Comp/Learn/Docker/Install%20timedatectl%20on%20rocker/Dockerfile",
+                                        "path": "/home/ulys/Comp/Learn/Docker/Install timedatectl on rocker/Dockerfile",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/dilavo/.env"
-                                },
-                                {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo/compose.yml",
-                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/dilavo/compose.yml",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Comp/rstudio-projects/Apps/dilavo/compose.yml"
+                                    "label": "~/Comp/Learn/Docker/Install timedatectl on rocker/Dockerfile"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -295,23 +315,34 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/learning_docker/debug_R_container/compose.yml",
-                                        "path": "/home/ulys/Comp/learning_docker/debug_R_container/compose.yml",
+                                        "external": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo/ovalide_data/upload/ziZiteOm",
+                                        "path": "/home/ulys/Comp/rstudio-projects/Apps/dilavo/ovalide_data/upload/ziZiteOm",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/learning_docker/debug_R_container/compose.yml"
+                                    "label": "~/Comp/rstudio-projects/Apps/dilavo/ovalide_data/upload/ziZiteOm"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority/run.sh",
-                                        "path": "/home/ulys/Comp/learning_docker/GUI_with_setfacl_Xauthority/run.sh",
+                                        "external": "file:///home/ulys/Pictures/Screenshots/Screenshot%20from%202024-04-03%2018-02-59.png",
+                                        "path": "/home/ulys/Pictures/Screenshots/Screenshot from 2024-04-03 18-02-59.png",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Comp/learning_docker/GUI_with_setfacl_Xauthority/run.sh"
+                                    "label": "~/Pictures/Screenshots/Screenshot from 2024-04-03 18-02-59.png"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/ulys/.cache/.fr-4FEZG2/Server_Shiny_Restitution/Coronarographie%20dans%20le%20Calaisis/app.R",
+                                        "path": "/home/ulys/.cache/.fr-4FEZG2/Server_Shiny_Restitution/Coronarographie dans le Calaisis/app.R",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.cache/.fr-4FEZG2/Server_Shiny_Restitution/Coronarographie dans le Calaisis/app.R"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -325,7 +356,7 @@
                                 },
                                 {
                                     "id": "workbench.action.clearRecentFiles",
-                                    "label": "&&Clear Recently Opened"
+                                    "label": "&&Clear Recently Opened..."
                                 }
                             ]
                         }
@@ -372,10 +403,6 @@
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
-                                },
-                                {
-                                    "id": "workbench.profiles.actions.importProfile",
-                                    "label": "Import Profile..."
                                 }
                             ]
                         }
@@ -385,7 +412,8 @@
                     },
                     {
                         "id": "workbench.action.toggleAutoSave",
-                        "label": "A&&uto Save"
+                        "label": "A&&uto Save",
+                        "checked": true
                     },
                     {
                         "id": "submenuitem.MenubarPreferencesMenu",
@@ -393,47 +421,8 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "submenuitem.Profiles",
-                                    "label": "Profiles (Default)",
-                                    "submenu": {
-                                        "items": [
-                                            {
-                                                "id": "workbench.profiles.actions.profileEntry.__default__profile__",
-                                                "label": "Default",
-                                                "checked": true
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.showProfileContents",
-                                                "label": "Show Profile Contents"
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.createProfile",
-                                                "label": "Create Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.deleteProfile",
-                                                "label": "Delete Profile...",
-                                                "enabled": false
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.exportProfile",
-                                                "label": "Export Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.importProfile",
-                                                "label": "Import Profile..."
-                                            }
-                                        ]
-                                    }
+                                    "id": "workbench.profiles.actions.manageProfiles",
+                                    "label": "&&Profiles"
                                 },
                                 {
                                     "id": "workbench.action.openSettings",
@@ -449,11 +438,11 @@
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
-                                    "label": "Configure User Snippets"
+                                    "label": "Configure Snippets"
                                 },
                                 {
                                     "id": "workbench.action.tasks.openUserTasks",
-                                    "label": "User Tasks"
+                                    "label": "Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -479,15 +468,15 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "settings.filterByOnline",
-                                    "label": "&&Online Services Settings"
+                                    "id": "workbench.userDataSync.actions.turnOn",
+                                    "label": "Backup and Sync Settings..."
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "workbench.userDataSync.actions.turnOn",
-                                    "label": "Backup and Sync Settings..."
+                                    "id": "settings.filterByOnline",
+                                    "label": "&&Online Services Settings"
                                 }
                             ]
                         }
@@ -718,7 +707,15 @@
                                     "label": "&&Panel"
                                 },
                                 {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.toggleSidebarPosition",
+                                    "label": "&&Move Primary Side Bar Right"
                                 },
                                 {
                                     "id": "submenuitem.ActivityBarPositionMenu",
@@ -726,9 +723,17 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.activityBarLocation.side",
-                                                "label": "&&Side",
+                                                "id": "workbench.action.activityBarLocation.default",
+                                                "label": "&&Default",
                                                 "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.top",
+                                                "label": "&&Top"
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.bottom",
+                                                "label": "&&Bottom"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -738,18 +743,13 @@
                                     }
                                 },
                                 {
-                                    "id": "workbench.action.toggleSidebarPosition",
-                                    "label": "&&Move Primary Side Bar Right"
-                                },
-                                {
                                     "id": "submenuitem.PanelPositionMenu",
                                     "label": "Panel Position",
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.positionPanelBottom",
-                                                "label": "Bottom",
-                                                "checked": true
+                                                "id": "workbench.action.positionPanelTop",
+                                                "label": "Top"
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelLeft",
@@ -758,6 +758,11 @@
                                             {
                                                 "id": "workbench.action.positionPanelRight",
                                                 "label": "Right"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelBottom",
+                                                "label": "Bottom",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -803,7 +808,28 @@
                                             },
                                             {
                                                 "id": "workbench.action.hideEditorTabs",
-                                                "label": "Hide"
+                                                "label": "Hidden"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "id": "submenuitem.EditorActionsPositionSubmenu",
+                                    "label": "Editor Actions Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.editorActionsDefault",
+                                                "label": "Tab Bar",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.editorActionsTitleBar",
+                                                "label": "Title Bar"
+                                            },
+                                            {
+                                                "id": "workbench.action.hideEditorActions",
+                                                "label": "Hidden"
                                             }
                                         ]
                                     }
@@ -818,12 +844,13 @@
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "&&Breadcrumbs",
+                                    "label": "Toggle &&Breadcrumbs",
                                     "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
-                                    "label": "&&Sticky Scroll"
+                                    "label": "&&Sticky Scroll",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleRenderWhitespace",
@@ -880,6 +907,17 @@
                                 {
                                     "id": "workbench.action.splitEditorInGroup",
                                     "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.moveEditorToNewWindow",
+                                    "label": "&&Move Editor into New Window"
+                                },
+                                {
+                                    "id": "workbench.action.copyEditorToNewWindow",
+                                    "label": "&&Copy Editor into New Window"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -981,8 +1019,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -991,7 +1028,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1271,6 +1309,10 @@
                                 {
                                     "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
+                                },
+                                {
+                                    "id": "editor.debug.action.triggerByBreakpoint",
+                                    "label": "&&Triggered Breakpoint..."
                                 }
                             ]
                         }
@@ -1661,6 +1703,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+shift+\\"
             },
+            "workbench.action.copyEditorToNewWindow": {
+                "label": "Ctrl+K O",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k o"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1911,17 +1958,18 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo",
-            "backupPath": "/home/ulys/.config/Code/Backups/d2f9e9f9b362236fc1a8e22afea17014",
+            "folder": "file:///home/ulys/Comp/rstudio-projects/Apps/dilavo.bak.after.refactor.ovaliDB.package",
+            "backupPath": "/home/ulys/.config/Code/Backups/70baba3be82f82e6e113bcbcf5b568fa",
             "uiState": {
-                "mode": 0,
-                "x": 768,
-                "y": 408,
-                "width": 1024,
-                "height": 624
+                "mode": 1,
+                "x": 0,
+                "y": 37,
+                "width": 2560,
+                "height": 995
             }
         },
         "openedWindows": []
     },
-    "telemetry.sqmId": ""
+    "telemetry.sqmId": "",
+    "telemetry.devDeviceId": "117ac736-d958-48a0-bc89-bcd342d6b9b5"
 }
